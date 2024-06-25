@@ -1,0 +1,11 @@
+image add:
+python main.py addimg zorro.jpg watermark.png output.jpg
+
+image extract:
+python main.py extimg output.jpg 120 240 destwm.jpg
+
+text add:
+python main.py addtext zorro.jpg output.jpg holamundo
+
+text extract:
+python main.py exttext output.jpg 71
